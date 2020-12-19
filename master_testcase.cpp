@@ -318,5 +318,7 @@ int main(){
 
     BKUtree.traverseNLROnAVL(&printNode<int,int>);
     BKUtree.traverseNLROnSplay(&printNode<int,int>);
+    
+    outFile.close();
 }
 
