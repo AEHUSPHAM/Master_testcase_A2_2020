@@ -85,7 +85,7 @@ int main(){
         try{
             AVLtree.search(m);
         }
-        catch(exception& e){
+        catch(const char *c){
             catches++;
         }
     }
@@ -103,7 +103,7 @@ int main(){
         try{
             AVLtree.remove(m);
         }
-        catch(exception& e){
+        catch(const char *c){
             catches++;
         }
     }
@@ -121,7 +121,7 @@ int main(){
         try{
             AVLtree.add(e,e + e % 91);
         }
-        catch(exception& e){
+        catch(const char *c){
             catches++;
         }
     }
@@ -174,7 +174,7 @@ int main(){
         try{
             Splaytree.search(m);
         }
-        catch(exception& e){
+        catch(const char *c){
             catches++;
         }
     }
@@ -191,7 +191,7 @@ int main(){
         try{
             Splaytree.remove(m);
         }
-        catch(exception& e){
+        catch(const char *c){
             catches++;
         }
     }
@@ -209,7 +209,7 @@ int main(){
         try{
             Splaytree.add(e,e + e % 91);
         }
-        catch(exception& e){
+        catch(const char *c){
             catches++;
         }
     }
@@ -268,7 +268,7 @@ int main(){
             vector<int> path;
             BKUtree.search(m,path);
         }
-        catch(exception& e){
+        catch(const char *c){
             catches++;
         }
     }
@@ -286,7 +286,7 @@ int main(){
         try{
             BKUtree.remove(m);
         }
-        catch(exception& e){
+        catch(const char *c){
             catches++;
         }
     }
@@ -304,7 +304,7 @@ int main(){
         try{
             BKUtree.add(e,e + e % 74);
         }
-        catch(exception& e){
+        catch(const char *c){
             catches++;
         }
     }
